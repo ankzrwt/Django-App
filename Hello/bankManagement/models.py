@@ -9,6 +9,6 @@ class Customer(models.Model):
 class Account(models.Model):
     accountId=models.CharField(max_length=13)
     customerId=models.CharField(max_length=13)
-    balance=models.IntegerField(0)
+    balance=models.IntegerField()
 
 

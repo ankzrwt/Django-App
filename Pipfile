@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 django = "*"
 mssql-django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-rest-framework = "*"
 
 [dev-packages]
 
